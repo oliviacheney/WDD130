@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rock+Salt&display=swap');
+body {
+    font-family: Roboto, serif;
+}
 
 nav, footer {
     background-color: steelblue;
-    padding: 10px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -10,6 +14,7 @@ nav a {
     margin: 40px;
     text-decoration: none;
     font-size: 1.5em;
+    padding: 10px;
 }
 
 a:hover {
@@ -26,6 +31,8 @@ a {
 h1 {
     color: steelblue;
     text-align: center;
+    font-family: 'Rock Salt', 'Bradley Hand', cursive;
+    margin: 50px 0;
 }
 /* block vs in-line centering 
 we love white space*/
@@ -54,4 +61,5 @@ p {
 
 footer p {
     font-size: 20px;
+    margin: 20px auto;
 }
