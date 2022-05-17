@@ -41,6 +41,7 @@ nav a:hover {
 .book, .join {
     background-color: #ffffff;
     text-decoration: none;
+    color: #181a74
 
 }
 
@@ -71,4 +72,5 @@ footer a {
 
 footer h3 a:hover {
     text-decoration: underline;
+    color: black;
 }
