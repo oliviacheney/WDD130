@@ -16,6 +16,10 @@ h2 {
     margin: 0 auto;
 }
 
+.logo {
+    width: 175px
+}
+
 nav a{
     text-align: center;
     color: #073f34;
