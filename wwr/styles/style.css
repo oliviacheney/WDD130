@@ -220,11 +220,84 @@ main section img {
 footer {
     background-color: white;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
+
+
+
+
+
+/* page 2 RIVERS css */
+
+
+#my-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+
+#subtitle {
+    justify-content: left;
+}
+
+#headpic {
+    width: 100%;
+    height: 400px;
+}
+
+#pic1 {
+    margin-top: 0px;
+    width: 100%;
+    height: 500px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#pic2 {
+    height: 500px;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#river1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 175%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+#river2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 175%;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+#footpic {
+    width: 1600px;
+    height: 350px;
+    margin-top: 75px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
